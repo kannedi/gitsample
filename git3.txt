@@ -1,0 +1,17 @@
+git init
+git add .
+git commit -m "First commit"
+//copy from clipboard as "url :p"
+git remote add origin "url"
+git push origin master
+
+///////////to commit again
+
+git add .
+git commit
+//message
+ctrl o
+enter
+ctrl x
+git remote -v
+git push origin master
