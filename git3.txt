@@ -8,10 +8,31 @@ git push origin master
 ///////////to commit again
 
 git add .
-git commit
+git commit or (git commit -m "This is a message")
 //message
 ctrl o
 enter
 ctrl x
 git remote -v
 git push origin master
+
+////////
+parent for ^ and ancestor for ~1,2,3..... to refer those committed objects
+
+////////
+ To list all commits which are in the "master" branch but not in the "testing" branch, use the following command.
+
+git log testing..master
+
+///////
+# seeing the git log for the HEAD file
+git log -- HEAD
+
+# seeing the git log for the HEAD reference
+git log HEAD --
+
+# if there is no HEAD file you can use HEAD as commit reference
+git log HEAD
+
+//////////GIT Configuration
+
