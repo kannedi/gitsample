@@ -2,4 +2,13 @@ After modifying your working tree you need to perform the following two steps to
 
 add the selected changes to the staging area (also known as index) via the git add command
 
-commit the staged changes into the Git repository via the git commit command
+commit the staged changes into the Git repository via the git commit command.
+
+
+
+
+
+
+
+
+blablablaaaaaaaaaaaaaaaaabla
